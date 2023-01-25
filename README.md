@@ -54,6 +54,9 @@ Define a new Python data class named `Record`. Give this new class a formalized 
 
 Note that you’ll use this new `Record` class as the data type of your `record` attribute in the next section.
 
+<img width="578" alt="Screen Shot 2023-01-24 at 7 30 33 PM" src="https://user-images.githubusercontent.com/110856988/214452914-3f5b7e67-0d6d-4d52-9dda-d6449b01234e.png">
+
+
 ### Step 2: Modify the Existing Block Data Class to Store Record Data
 
 Rename the `data` attribute in your `Block` class to `record`, and then set it to use an instance of the new `Record` class that you created in the previous section. To do so, complete the following steps:
@@ -61,6 +64,11 @@ Rename the `data` attribute in your `Block` class to `record`, and then set it t
 1. In the `Block` class, rename the `data` attribute to `record`.
 
 2. Set the data type of the `record` attribute to `Record`.
+
+<img width="526" alt="Screen Shot 2023-01-24 at 7 31 19 PM" src="https://user-images.githubusercontent.com/110856988/214452966-3801a013-d953-4ac0-83e2-98b8575d7a18.png">
+
+
+
 
 ### Step 3: Add Relevant User Inputs to the Streamlit Interface
 
@@ -75,6 +83,9 @@ Code additional input areas for the user interface of your Streamlit application
 4. Add an input area where you can get a value for `amount` from the user.
 
 5. As part of the “Add Block” button functionality, update `new_block` so that `Block` consists of an attribute named `record`, which is set equal to a `Record` that contains the `sender`, `receiver`, and `amount` values. The updated `Block` should also include the attributes for `creator_id` and `prev_hash`.
+
+<img width="651" alt="Screen Shot 2023-01-24 at 7 32 13 PM" src="https://user-images.githubusercontent.com/110856988/214453042-804b35bc-4b3a-4f88-9dfd-466f2164ff02.png">
+
 
 ### Step 4: Test the PyChain Ledger by Storing Records
 
